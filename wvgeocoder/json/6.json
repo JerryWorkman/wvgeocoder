@@ -1,0 +1,42 @@
+{
+  "feature" : 
+  {
+    "attributes" : {
+      "FID" : 6, 
+      "OBJECTID" : 7, 
+      "SITE_ID" : 1012095, 
+      "SITE_TYPE" : "R1", 
+      "STREET_ID" : 660944, 
+      "ADDR_LABEL" : "158", 
+      "ADDRESS_NU" : 158, 
+      "POST_ID" : 1133, 
+      "CNTY_ID" : 54081, 
+      "STATE" : "WV", 
+      "ZIP" : "25844", 
+      "NAME_ID" : 26925, 
+      "STREET_I_1" : 660944, 
+      "HISTORIC" : 0, 
+      "SIDE" : "L", 
+      "NAME_ORDER" : "P", 
+      "UPDATED" : -2208988800000, 
+      "NAME_ID_1" : 26925, 
+      "NAME_TYPE" : 0, 
+      "PREFIX_DIR" : " ", 
+      "NAME" : "MCGRAW", 
+      "SUFFIX_TYP" : "CT", 
+      "SUFFIX_DIR" : " ", 
+      "UNPARSED" : "MCGRAW CT", 
+      "UPDATED_1" : -2208988800000, 
+      "POSTAL_ID" : 1133, 
+      "NAME_1" : "STOVER", 
+      "CNTY_ID_1" : 54081, 
+      "UPDATED_12" : -2208988800000
+    }
+    , 
+    "geometry" : 
+    {
+      "x" : -9057007.4311, 
+      "y" : 4553357.236
+    }
+  }
+}

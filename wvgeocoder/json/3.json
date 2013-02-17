@@ -1,0 +1,42 @@
+{
+  "feature" : 
+  {
+    "attributes" : {
+      "FID" : 3, 
+      "OBJECTID" : 4, 
+      "SITE_ID" : 1012089, 
+      "SITE_TYPE" : "DV", 
+      "STREET_ID" : 653611, 
+      "ADDR_LABEL" : "259", 
+      "ADDRESS_NU" : 259, 
+      "POST_ID" : 608, 
+      "CNTY_ID" : 54081, 
+      "STATE" : "WV", 
+      "ZIP" : "25007", 
+      "NAME_ID" : 29726, 
+      "STREET_I_1" : 653611, 
+      "HISTORIC" : 0, 
+      "SIDE" : "L", 
+      "NAME_ORDER" : "P", 
+      "UPDATED" : -2208988800000, 
+      "NAME_ID_1" : 29726, 
+      "NAME_TYPE" : 0, 
+      "PREFIX_DIR" : " ", 
+      "NAME" : "NEWTON", 
+      "SUFFIX_TYP" : "PL", 
+      "SUFFIX_DIR" : " ", 
+      "UNPARSED" : "NEWTON PL", 
+      "UPDATED_1" : -2208988800000, 
+      "POSTAL_ID" : 608, 
+      "NAME_1" : "ARNETT", 
+      "CNTY_ID_1" : 54081, 
+      "UPDATED_12" : -2208988800000
+    }
+    , 
+    "geometry" : 
+    {
+      "x" : -9065394.5187, 
+      "y" : 4554226.1257
+    }
+  }
+}

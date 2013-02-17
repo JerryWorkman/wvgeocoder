@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block head %}
+<link href="{{ STATIC_URL }}css/form.css" rel="stylesheet">
+{% endblock %}
+{% block title %}Site Search{% endblock %}
+{% block heading %}Site Search{% endblock %}
+{% block content %}
+<style>
+#content, form {
+	width: 500px;
+  	margin: auto;
+	margin-top: 200px; 
+}
+</style>
+<form class="cmxform" action="../../site/list/">
+<fieldset>
+<legend>Enter an address</legend>
+<ul>
+<input id="address" name="address" type='text' size="60" />
+</ul>
+	<input type="submit" value="Search"><input type="reset" value="Reset Form">
+</fieldset>
+</form>
+<script>
+$(function() {
+  $("#address").focus();
+});
+</script>
+{% endblock %}

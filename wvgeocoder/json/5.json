@@ -1,0 +1,42 @@
+{
+  "feature" : 
+  {
+    "attributes" : {
+      "FID" : 5, 
+      "OBJECTID" : 6, 
+      "SITE_ID" : 1012093, 
+      "SITE_TYPE" : "R1", 
+      "STREET_ID" : 651243, 
+      "ADDR_LABEL" : "721", 
+      "ADDRESS_NU" : 721, 
+      "POST_ID" : 1122, 
+      "CNTY_ID" : 54081, 
+      "STATE" : "WV", 
+      "ZIP" : "25844", 
+      "NAME_ID" : 32574, 
+      "STREET_I_1" : 651243, 
+      "HISTORIC" : 0, 
+      "SIDE" : "L", 
+      "NAME_ORDER" : "P", 
+      "UPDATED" : -2208988800000, 
+      "NAME_ID_1" : 32574, 
+      "NAME_TYPE" : 0, 
+      "PREFIX_DIR" : " ", 
+      "NAME" : "PINE BRANCH", 
+      "SUFFIX_TYP" : "RD", 
+      "SUFFIX_DIR" : " ", 
+      "UNPARSED" : "PINE BRANCH RD", 
+      "UPDATED_1" : -2208988800000, 
+      "POSTAL_ID" : 1122, 
+      "NAME_1" : "DAMERON", 
+      "CNTY_ID_1" : 54081, 
+      "UPDATED_12" : -2208988800000
+    }
+    , 
+    "geometry" : 
+    {
+      "x" : -9062497.4068, 
+      "y" : 4553518.779
+    }
+  }
+}

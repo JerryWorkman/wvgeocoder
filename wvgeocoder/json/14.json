@@ -1,0 +1,42 @@
+{
+  "feature" : 
+  {
+    "attributes" : {
+      "FID" : 14, 
+      "OBJECTID" : 15, 
+      "SITE_ID" : 1012116, 
+      "SITE_TYPE" : "A1", 
+      "STREET_ID" : 665493, 
+      "ADDR_LABEL" : "114", 
+      "ADDRESS_NU" : 114, 
+      "POST_ID" : 615, 
+      "CNTY_ID" : 54081, 
+      "STATE" : "WV", 
+      "ZIP" : "25007", 
+      "NAME_ID" : 4589, 
+      "STREET_I_1" : 665493, 
+      "HISTORIC" : 0, 
+      "SIDE" : "L", 
+      "NAME_ORDER" : "P", 
+      "UPDATED" : -2208988800000, 
+      "NAME_ID_1" : 4589, 
+      "NAME_TYPE" : 0, 
+      "PREFIX_DIR" : " ", 
+      "NAME" : "BOAZ", 
+      "SUFFIX_TYP" : "CT", 
+      "SUFFIX_DIR" : " ", 
+      "UNPARSED" : "BOAZ CT", 
+      "UPDATED_1" : -2208988800000, 
+      "POSTAL_ID" : 615, 
+      "NAME_1" : "FAIRDALE", 
+      "CNTY_ID_1" : 54081, 
+      "UPDATED_12" : -2208988800000
+    }
+    , 
+    "geometry" : 
+    {
+      "x" : -9064333.8062, 
+      "y" : 4550193.0142
+    }
+  }
+}

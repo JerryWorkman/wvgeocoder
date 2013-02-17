@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+{% block head %}
+<style>
+#content {
+	width: 350px; 
+  	margin: auto;
+}
+
+body {
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	margin-top: 180;
+	margin: 0;
+	padding: 0;
+}
+.styleTable th { 
+	font-size: 24px !important;
+}
+.styleTable td {
+	font-size: 20px !important;
+}
+h1 {
+	text-align: center;
+}
+h1, table {
+	width:100%;
+}
+a {
+	text-decoration: none;
+	vertical-align: middle;
+}
+.icon {
+	width:80px;
+	height:80px;
+	vertical-align:middle;
+	border:0;
+}
+</style>
+{% endblock %}
+{% block title %} Application Menu{% endblock %}
+{% block content %}
+<h1>{{ SITE_NAME }}</h1>
+	<table id="site">
+		<thead>
+			<th>Web Applications</th>
+		</thead>
+	<tbody>
+		<tr onclick="window.location='site/search/'" title="Search for Sites" >
+			<td><a href='site/search/' title="Search for Sites">
+				<div>&nbsp;&nbsp;&nbsp;&nbsp;<img src="{% static "icons/notes.png" %}" class="icon">
+				<span style="">Geocode an address</span></a>
+				</div></td>
+		</tr>
+	</tbody>
+	</table>
+<script>
+$(document).ready(function () {    
+	$("#site").styleTable();
+});	
+</script>
+	
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}Parcels{% endblock %}
+{% block heading %}Parcels{% endblock %}
+{% block content %}
+{% load pagination_tags %}
+{% load humanize %}
+<style>
+	div.pagination {
+		white-space:nowrap;
+		display: inline-block;
+	}
+#content {
+	width: 400px; 
+  	margin: auto;
+}
+</style>
+<table id="site">
+	<thead>
+		<tr>
+		<th colspan="10" class="heading">{{ SITE_NAME }} Sites</th>
+		</tr>
+	</thead>
+<tbody>
+{% comment %}
+{{ sites|pprint}}
+{{ rec|pprint}}
+{% endcomment %}
+{% if sites %}
+<tr>
+	<th>Address Lookup</th>
+</tr>
+{% autopaginate sites 8 %}
+{% for rec in sites %}
+<tr onclick="window.location='../../site/{{rec.fid}}/'" title="Click to view this address" >
+	<td><a href="../../site/{{rec.fid}}/">{{ rec|title }}</a></td>
+</tr>
+{% endfor %}
+{% else %}
+<tr>
+    <th colspan="10">No exact address natches found!</th>
+</tr>
+{% endif %} 
+{% if georecords %}
+<tr>
+	<th>Geocoded Addresses</th>
+</tr>
+{% for rec in georecords %}
+<tr onclick="window.location='../../address/geocode/map?{{ rec.query_string }}'" title="Click to view this address" >
+	<td><a href="../../address/geocode/map?{{ rec.query_string }}">{{ rec }}</a></td>
+</tr>
+{% endfor %}
+{% else %}
+<tr>
+    <th colspan="10">No geocoded addresses found!</th>
+</tr>
+{% endif %} 
+</tbody>
+	<tfoot>
+		<tr>
+		<th colspan="10">geocoded address: {{ addy }}</th>
+		</tr>
+	</tfoot>
+</table>
+{% paginate %} (<a href="../search">Search Again</a>)
+<script>
+$(document).ready(function () {    
+	$("#site").styleTable();
+});	
+</script>
+
+{% endblock %}

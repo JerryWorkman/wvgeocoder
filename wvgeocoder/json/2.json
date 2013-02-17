@@ -1,0 +1,42 @@
+{
+  "feature" : 
+  {
+    "attributes" : {
+      "FID" : 2, 
+      "OBJECTID" : 3, 
+      "SITE_ID" : 1012088, 
+      "SITE_TYPE" : "R1", 
+      "STREET_ID" : 656920, 
+      "ADDR_LABEL" : "197", 
+      "ADDRESS_NU" : 197, 
+      "POST_ID" : 575, 
+      "CNTY_ID" : 54081, 
+      "STATE" : "WV", 
+      "ZIP" : "25140", 
+      "NAME_ID" : 27754, 
+      "STREET_I_1" : 656920, 
+      "HISTORIC" : 0, 
+      "SIDE" : "L", 
+      "NAME_ORDER" : "P", 
+      "UPDATED" : -2208988800000, 
+      "NAME_ID_1" : 27754, 
+      "NAME_TYPE" : 0, 
+      "PREFIX_DIR" : " ", 
+      "NAME" : "MILLERS", 
+      "SUFFIX_TYP" : "FRK", 
+      "SUFFIX_DIR" : " ", 
+      "UNPARSED" : "MILLERS FRK", 
+      "UPDATED_1" : -2208988800000, 
+      "POSTAL_ID" : 575, 
+      "NAME_1" : "NAOMA", 
+      "CNTY_ID_1" : 54081, 
+      "UPDATED_12" : -2208988800000
+    }
+    , 
+    "geometry" : 
+    {
+      "x" : -9068328.4045, 
+      "y" : 4552701.7791
+    }
+  }
+}
