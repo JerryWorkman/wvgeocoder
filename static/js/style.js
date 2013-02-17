@@ -1,4 +1,4 @@
-/* style.js */
+/* style.js edit test */
 
 (function ($) {
     $.fn.styleTable = function (options) {
